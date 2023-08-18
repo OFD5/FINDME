@@ -19,9 +19,9 @@ https://charleyproject.org/
 #
 # Steps to use the tool 
 1. pip3 install requirements.txt
-2. python scrape-img.py
+2. python FINDME.py
 
-![collector-OSINT logo](https://github.com/OFD5/Missing-people-collector/blob/main/collector-OSINT.PNG)
+![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/collector-OSINT.PNG)
 
 
 ------------------------
@@ -32,9 +32,11 @@ The menu information will be provided in below.
 
 -------------------------
 * If you choose, option 1 to get USER ID 536 the profile will be created with OUTPUT HTML format like the one n below. You can scrape all User ID.
-![Info-missing-logo](https://github.com/OFD5/Missing-people-collector/blob/main/Info-missing.PNG)
-#
-#OSINT Information to get missing people e.g 
+![Info-missing-logo](https://github.com/OFD5/FINDME/blob/main/Info-missing.PNG)
+# Ouput HTML
+![Info-missing-logo](https://github.com/OFD5/FINDME/blob/main/view-output.PNG)
+
+# OSINT Information to get missing people e.g 
 - Look for twitter accounts
 - Facebook accounts
 - Twitter
