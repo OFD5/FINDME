@@ -48,5 +48,5 @@ The menu information will be provided in below.
   
 🚫 Please don't hack  or Password reset peoples accounts.  
 #
-⚠ legal disclaimer : Usage of Missing-people-collector for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. This tool is created to enhance and help forensic investigators and Police department in South Africa to extract information of missing people in comprehensive HTML format from https://www.saps.gov.za/crimestop/missing/ . 
+⚠ legal disclaimer : Usage of FINDME TOOL for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. This tool is created to enhance and help forensic investigators and Police department in South Africa to extract information of missing people in comprehensive HTML format from https://www.saps.gov.za/crimestop/missing/ website. 
 #
