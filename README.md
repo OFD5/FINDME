@@ -1,7 +1,7 @@
 # FINDME
 
 
-FINDME is a tool Used in Recon to find missing people online from SAPS website. Please use the tool for security reaserch only i won't be held accountable for any illegal use of the tools. 
+FINDME is a python script used in Recon to find missing people online from SAPS website. Please use the tool for security reaserch only i won't be held accountable for any illegal use of the tools. 
 
 #
 # The Main Reason for Creating this tool.
