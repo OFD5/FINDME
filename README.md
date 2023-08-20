@@ -5,7 +5,7 @@ FINDME is a python script used in Recon to find missing people online from SAPS 
 
 #
 # The Main Reason for Creating this tool.
-According to *Tracelabs*, the statistics are sobering – more people are going missing each year, with some falling victim to unthinkable fates like human trafficking. It's a stark reality that demands a modern, scalable solution to safeguard our society from such tragedies. However, I created  automation tool that extracts vital information from the SAPS website and presents it in a comprehensive user-friendly HTML format that can save time in Open Source Intelligence (OSINT). Most missing people cases are oftenly neglected by the police Department as result of miginalization of OSINT tools in many digitaly divided continents like Africa. 
+According to <a href="https://www.tracelabs.org/">Tracelabs</a>, the statistics are sobering – more people are going missing each year, with some falling victim to unthinkable fates like human trafficking. It's a stark reality that demands a modern, scalable solution to safeguard our society from such tragedies. However, I created  automation tool that extracts vital information from the SAPS website and presents it in a comprehensive user-friendly HTML format that can save time in Open Source Intelligence (OSINT). Most missing people cases are oftenly neglected by the police officials as result of miginalization of OSINT tools in many digitaly divided continents like Africa. The Recon script I have devised represents a proactive stride towards addressing this issue, enabling a more advanced approach in the pursuit of locating missing individuals.
 
 
 
