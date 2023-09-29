@@ -38,7 +38,12 @@ The menu information will be provided in below.
 # Ouput HTML
 ![Info-missing-logo](https://github.com/OFD5/FINDME/blob/main/view-output.PNG)
 
-# OSINT Information to get missing people e.g 
+# OSINT Information to get missing people e.g
+Automation is always the starting point when looking for missing people to save time on tedious searching manualy because sometimes automated tools can do the Job faster.
+
+# Automation tools 
+- Find social media Usernames https://github.com/sherlock-project/sherlock
+- 
 - Look for twitter accounts
 - Facebook accounts
 - Twitter
