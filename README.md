@@ -42,7 +42,10 @@ The menu information will be provided in below.
 Automation is always the starting point when looking for missing people to save time on tedious searching manualy because sometimes automated tools can do the Job faster.
 
 # Automation tools 
+**Social media Usernames**
 - Find social media Usernames. **sherlock** https://github.com/sherlock-project/sherlock
+- Find social media Usernames **nexfil** https://github.com/thewhiteh4t/nexfil
+- Find social media Usernames  **maigret** https://github.com/soxoj/maigret
 - Find social media Usernames. **Socuma**
 --------------------------------------------------------------------------------------------
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
