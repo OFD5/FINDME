@@ -42,15 +42,25 @@ The menu information will be provided in below.
 Automation is always the starting point when looking for missing people to save time on tedious searching manualy because sometimes automated tools can do the Job faster.
 
 # Automation tools 
-- Find social media Usernames https://github.com/sherlock-project/sherlock
-- 
+- Find social media Usernames. **sherlock** https://github.com/sherlock-project/sherlock
+- Find social media Usernames. **Socuma**
+--------------------------------------------------------------------------------------------
+- Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
+
+---------------------------------------------------------------------------------------------
+  
+
+# Manual approach 
 - Look for twitter accounts
 - Facebook accounts
 - Twitter
 -  IG
 - Snapchat
-- eBay
 - LinkedIn
+- Google Dork CV related to Missing person
+- find emails
+- Phone number test if whatsapp exits
+  
 
   
 🚫 Please don't hack  or Password reset peoples accounts.  
