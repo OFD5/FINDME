@@ -20,8 +20,9 @@ https://charleyproject.org/
 https://blackandmissinginc.com/
 #
 # Steps to use the tool 
-1. pip3 install requirements.txt
-2. python FINDME.py
+1. git clone https://github.com/OFD5/FINDME.git
+2. pip3 install requirements.txt
+3. python FINDME.py
 
 ![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/collector-OSINT.PNG)
 
