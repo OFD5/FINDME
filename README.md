@@ -41,12 +41,17 @@ The menu information will be provided in below.
 # OSINT Information to get missing people e.g
 Automation is always the starting point when looking for missing people to save time on tedious searching manualy because sometimes automated tools can do the Job faster.
 
+# My automation tool
+I created an automation tool that helps in OSINT to find social media accounts
+<br>
+https://github.com/OFD5/Socuma
+
 # Automation tools 
 **Social media Usernames**
 - Find social media Usernames. **sherlock** https://github.com/sherlock-project/sherlock
 - Find social media Usernames **nexfil** https://github.com/thewhiteh4t/nexfil
 - Find social media Usernames  **maigret** https://github.com/soxoj/maigret
-- Find social media Usernames. **Socuma**
+- Find social media Usernames. **Socuma** https://github.com/OFD5/Socuma
 --------------------------------------------------------------------------------------------
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
 
