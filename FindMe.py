@@ -19,6 +19,7 @@ banner = f"""
 
               Safepayload.co.za                       
 
+              
 {Style.RESET_ALL}
 {Fore.YELLOW}Author: OFD5{Style.RESET_ALL}
 {Fore.YELLOW}GitHub: https://github.com/OFD5{Style.RESET_ALL}
@@ -32,8 +33,7 @@ banner = f"""
 
 # Author information with colored text
 
-# Signature
-signature = "\nCreated by OFD5, This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website.\n"
+
 
 
 
@@ -104,7 +104,7 @@ def scrape_and_save(user_id):
             
             # Insert the signature with color
             html_file.write("<p style='color: green;'>")
-            html_file.write(signature)
+            
             html_file.write("</p>")
             
             html_file.write("</body></html>")
