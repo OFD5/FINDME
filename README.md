@@ -21,7 +21,7 @@ https://blackandmissinginc.com/
 #
 # Steps to use the tool 
 1. git clone https://github.com/OFD5/FINDME.git
-2. pip install -r requirements.txt
+2. pip3 install -r requirements.txt
 3. python FINDME.py
 
 ![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/FIND-ME.PNG)
