@@ -24,7 +24,7 @@ https://blackandmissinginc.com/
 2. pip install -r requirements.txt
 3. python FINDME.py
 
-![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/collector-OSINT.PNG)
+![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/FIND-ME.PNG)
 
 
 ------------------------
