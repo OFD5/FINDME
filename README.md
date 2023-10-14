@@ -55,13 +55,33 @@ https://github.com/OFD5/Socuma
 - Find social media Usernames  **maigret** https://github.com/soxoj/maigret
 - Find social media Usernames. **Socuma** https://github.com/OFD5/Socuma
 - Find social media Usernames. **social-searcher** https://www.social-searcher.com/
--  Find social media Usernames. **checkusernames**https://checkusernames.com/
+- Find social media Usernames. **checkusernames**https://checkusernames.com/
+- Find social media Usernames. **inteltechniques** https://inteltechniques.com/tools/index.html
 --------------------------------------------------------------------------------------------
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
 
 ---------------------------------------------------------------------------------------------
  # Retrieve information linked to an email address related to google calender, Google Maps. Google Plus Archive etc.
  - Find scrape email account information. **Google search epieos** https://epieos.com/
+
+----------------------------------------------------------------------------------------------
+# Image Reverse Image Search
+
+- Upload image search https://tineye.com/
+- Bing Visual Search - https://www.bing.com/visualsearch
+- Yandex Visual Search  - https://yandex.com/images/
+- Google Images Search by Picture - https://www.google.com/imghp
+- PimEyes images search - https://pimeyes.com/en
+
+
+# References 
+- https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques
+
+----------------------------------------------------------------------------------------------
+# Satelite images to Pin point Location of Missing
+- https://earth.google.com/
+- https://satellites.pro
+
 
 ----------------------------------------------------------------------------------------------
 
