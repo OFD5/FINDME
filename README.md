@@ -54,11 +54,13 @@ https://github.com/OFD5/Socuma
 - Find social media Usernames **nexfil** https://github.com/thewhiteh4t/nexfil
 - Find social media Usernames  **maigret** https://github.com/soxoj/maigret
 - Find social media Usernames. **Socuma** https://github.com/OFD5/Socuma
+- Find social media Usernames. **social-searcher** https://www.social-searcher.com/
+-  Find social media Usernames. **checkusernames**https://checkusernames.com/
 --------------------------------------------------------------------------------------------
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
 
 ---------------------------------------------------------------------------------------------
- # Retrieve information linked to an email address 
+ # Retrieve information linked to an email address related to google calender, Google Maps. Google Plus Archive etc.
  - Find scrape email account information. **Google search epieos** https://epieos.com/
 
 ----------------------------------------------------------------------------------------------
