@@ -58,6 +58,10 @@ https://github.com/OFD5/Socuma
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
 
 ---------------------------------------------------------------------------------------------
+ # Retrieve information linked to an email address 
+ - Find scrape email account information. **Google search epieos** https://epieos.com/
+
+----------------------------------------------------------------------------------------------
 
   
 
