@@ -1,24 +1,40 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+from colorama import init, Fore, Style
+
+# Initialize colorama
+init(autoreset=True)
 
 # Banner
-banner = """
-  _____ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ ______ 
- |______|______|______|______|______|______|______|______|______|______|______|______|______|______|______|______|
- |  \/  (_)       (_)                  |  __ \               | |                    | | |         | |             
- | \  / |_ ___ ___ _ _ __   __ _ ______| |__) |__  ___  _ __ | | ___ ______ ___ ___ | | | ___  ___| |_ ___  _ __  
- | |\/| | / __/ __| | '_ \ / _` |______|  ___/ _ \/ _ \| '_ \| |/ _ \______/ __/ _ \| | |/ _ \/ __| __/ _ \| '__| 
- | |  | | \__ \__ \ | | | | (_| |      | |  |  __/ (_) | |_) | |  __/     | (_| (_) | | |  __/ (__| || (_) | |    
- |_|  |_|_|___/___/_|_| |_|\__, |      |_|   \___|\___/| .__/|_|\___|      \___\___/|_|_|\___|\___|\__\___/|_|    
-                            __/ |                      | |                                                        
-  ______ ______ ______ ____|___/____ ______ ______ ____|_|______ ______ ______ ______ ______ ______ ______ ______ 
- |______|______|______|______|______|______|______|______|______|______|______|______|______|______|______|______|
-                                                                                                                                                                                                                                 
+banner = f"""
+{Fore.BLUE}
+
+ ______ _____ _   _ _____  __  __ ______ 
+|  ____|_   _| \ | |  __ \|  \/  |  ____|
+| |__    | | |  \| | |  | | \  / | |__   
+|  __|   | | | . ` | |  | | |\/| |  __|  
+| |     _| |_| |\  | |__| | |  | | |____ 
+|_|    |_____|_| \_|_____/|_|  |_|______|
+                                         
+
+{Style.RESET_ALL}
+{Fore.YELLOW}Author: OFD5{Style.RESET_ALL}
+{Fore.YELLOW}GitHub: https://github.com/OFD5{Style.RESET_ALL}
+{Fore.YELLOW}Contact me: OFD5@safepayload.co.za{Style.RESET_ALL}
+{Fore.GREEN}This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website. {Style.RESET_ALL}
+{Fore.RED}Use with caution. You are responsible for your actions{Fore.RED}
+{Fore.RED}Developers assume no liability and are not responsible for any misuse or damage {Fore.RED}
+{Fore.WHITE}Always ensure that you have proper authorization to access and collect information about individuals or entities.{Fore.WHITE}
+
 """
+
+# Author information with colored text
 
 # Signature
 signature = "\nCreated by OFD5, This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website.\n"
+
+
 
 def scrape_and_save(user_id):
     url = base_url + str(user_id)
@@ -40,7 +56,7 @@ def scrape_and_save(user_id):
                 value = cells[1].get_text(strip=True)
                 extracted_info[label] = value
         except Exception as e:
-            print(f"Error extracting info for User ID {user_id}: {e}")
+            print(f" No User {user_id}: {e}")
             return
         
         # Skip creating HTML file if there's no name or missing information
@@ -67,7 +83,7 @@ def scrape_and_save(user_id):
             html_file.write("img { max-width: 100%; }")
             html_file.write("</style></head><body>")
             
-            # Insert banner
+            # Include the banner in the HTML file
             html_file.write("<pre>")
             html_file.write(banner)
             html_file.write("</pre>")
@@ -85,8 +101,8 @@ def scrape_and_save(user_id):
             
             html_file.write("</table>")
             
-            # Insert signature with color
-            html_file.write("<p style='color: blue;'>")
+            # Insert the signature with color
+            html_file.write("<p style='color: green;'>")
             html_file.write(signature)
             html_file.write("</p>")
             
@@ -104,9 +120,10 @@ if not os.path.exists("user_data"):
     os.makedirs("user_data")
 
 while True:
-    print("1. Scrape user by ID")
-    print("2. Scrape all users")
-    print("3. Quit")
+    print(f"{Fore.CYAN}{Style.BRIGHT}{banner}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{Style.BRIGHT}1. Scrape user by ID{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{Style.BRIGHT}2. Scrape all users{Style.RESET_ALL}")
+    print(f"{Fore.RED}{Style.BRIGHT}3. Quit{Style.RESET_ALL}")
     choice = input("Enter your choice: ")
     
     if choice == '1':
@@ -127,4 +144,9 @@ while True:
             
             # Loop through the range of User IDs
             for user_id in range(start_id, end_id + 1):
-                 scrape_and_save(user_id)
+                scrape_and_save(user_id)
+    elif choice == '3':
+        print("Quitting the program.")
+        break
+    else:
+        print("Invalid choice. Please select a valid option.")
