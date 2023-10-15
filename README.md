@@ -48,7 +48,7 @@ I created an automation tool that helps in OSINT to find social media accounts
 <br>
 https://github.com/OFD5/Socuma
 
-# Automation tools 
+# Automation tools that can help find social media accounts.
 **Social media Usernames**
 - Find social media Usernames. **sherlock** https://github.com/sherlock-project/sherlock
 - Find social media Usernames **nexfil** https://github.com/thewhiteh4t/nexfil
@@ -78,7 +78,7 @@ https://github.com/OFD5/Socuma
 - https://www.skopenow.com/resource-center/image-based-osint-investigations-tips-techniques
 
 ----------------------------------------------------------------------------------------------
-# Satelite images to Pin point Location of Missing
+# Satelite images to Pin point Location of Missing Person
 - https://earth.google.com/
 - https://satellites.pro
 
