@@ -1,15 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
-import os
 from colorama import init, Fore, Style
 
 # Initialize colorama
 init(autoreset=True)
 
-# Banner
-banner = f"""
-{Fore.BLUE}
-
+# Console banner
+console_banner = """
  ______ _____ _   _ _____  __  __ ______ 
 |  ____|_   _| \ | |  __ \|  \/  |  ____|
 | |__    | | |  \| | |  | | \  / | |__   
@@ -17,27 +14,76 @@ banner = f"""
 | |     _| |_| |\  | |__| | |  | | |____ 
 |_|    |_____|_| \_|_____/|_|  |_|______|
 
-              Safepayload.co.za                       
+            safepayload.co.za
 
-              
-{Style.RESET_ALL}
-{Fore.YELLOW}Author: OFD5{Style.RESET_ALL}
-{Fore.YELLOW}GitHub: https://github.com/OFD5{Style.RESET_ALL}
-{Fore.YELLOW}Contact me: OFD5@safepayload.co.za{Style.RESET_ALL}
-{Fore.GREEN}This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website. {Style.RESET_ALL}
-{Fore.RED}Use with caution. You are responsible for your actions{Fore.RED}
-{Fore.RED}Developers assume no liability and are not responsible for any misuse or damage {Fore.RED}
-{Fore.WHITE}Always ensure that you have proper authorization to access and collect information about individuals or entities.{Fore.WHITE}
+Author: OFD5
+GitHub: https://github.com/OFD5
+Contact me: OFD5@safepayload.co.za
+This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website.
+Use with caution. You are responsible for your actions
+Developers assume no liability and are not responsible for any misuse or damage
+Always ensure that you have proper authorization to access and collect information about individuals or entities.
+"""
+
+# HTML banner
+html_banner = """
+<font color="#0000FF">
+<center>
+ ______ _____ _   _ _____  __  __ ______ 
+|  ____|_   _| \ | |  __ \|  \/  |  ____|
+| |__    | | |  \| | |  | | \  / | |__   
+|  __|   | | | . ` | |  | | |\/| |  __|  
+| |     _| |_| |\  | |__| | |  | | |____ 
+|_|    |_____|_| \_|_____/|_|  |_|______|
+</center>
+</font>
+<br>
+<font color="#0000FF"><center>Safepayload.co.za
+
+<br>
+<style>
+  table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse; /* Remove space between table cells */
+    width: 60%; /* Adjust the width as needed */
+  }
+
+  td {
+    padding: 10px; /* Adjust the spacing inside the table cells */
+    text-align: center; /* Center the text inside the cells */
+  }
+</style>
+
+  <table>
+    <tr>
+      <td>Author: OFD5</td>
+    </tr>
+    <tr>
+      <td>GitHub: <a href="https://github.com/OFD5" style="color: blue;">https://github.com/OFD5</a></td>
+    </tr>
+    <tr>
+      <td>Contact me: <a href="mailto:OFD5@safepayload.co.za">OFD5@safepayload.co.za</a></td>
+    </tr>
+    <tr>
+      <td>This tool is provided for enhancement of OSINT to find missing people online on the SAPS Website.</td>
+    </tr>
+    <tr>
+      <td>Use with caution. You are responsible for your actions.</td>
+    </tr>
+    <tr>
+      <td>Developers assume no liability and are not responsible for any misuse or damage.</td>
+    </tr>
+    <tr>
+      <td>Always ensure that you have proper authorization to access and collect information about individuals or entities.</td>
+    </tr>
+  </table>
+
 
 """
 
-# Author information with colored text
-
-
-
-
-
+# Function to scrape and save user data
 def scrape_and_save(user_id):
+    base_url = "https://www.saps.gov.za/crimestop/missing/detail.php?bid="
     url = base_url + str(user_id)
     response = requests.get(url)
     
@@ -57,7 +103,7 @@ def scrape_and_save(user_id):
                 value = cells[1].get_text(strip=True)
                 extracted_info[label] = value
         except Exception as e:
-            print(f" No User {user_id}: {e}")
+            print(f"No User {user_id}: {e}")
             return
         
         # Skip creating HTML file if there's no name or missing information
@@ -86,7 +132,7 @@ def scrape_and_save(user_id):
             
             # Include the banner in the HTML file
             html_file.write("<pre>")
-            html_file.write(banner)
+            html_file.write(html_banner)
             html_file.write("</pre>")
             
             html_file.write(f"<h1>User ID: {user_id}</h1>")
@@ -114,14 +160,9 @@ def scrape_and_save(user_id):
     else:
         print(f"Failed to retrieve data for User ID: {user_id}")
 
-base_url = "https://www.saps.gov.za/crimestop/missing/detail.php?bid="
-
-# Create a directory to save files
-if not os.path.exists("user_data"):
-    os.makedirs("user_data")
-
+# Main loop
 while True:
-    print(f"{Fore.CYAN}{Style.BRIGHT}{banner}{Style.RESET_ALL}")
+    print(f"{Fore.CYAN}{Style.BRIGHT}{console_banner}{Style.RESET_ALL}")
     print(f"{Fore.CYAN}{Style.BRIGHT}1. Scrape user by ID{Style.RESET_ALL}")
     print(f"{Fore.CYAN}{Style.BRIGHT}2. Scrape all users{Style.RESET_ALL}")
     print(f"{Fore.RED}{Style.BRIGHT}3. Quit{Style.RESET_ALL}")
