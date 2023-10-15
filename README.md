@@ -99,7 +99,10 @@ https://github.com/OFD5/Socuma
 - https://onemilliontweetmap.com/ Geolocation
 
 ----------------------------------------------------------------------------------------------
+# Google Dorking Guide
+https://www.googleguide.com/print/adv_op_ref.pdf
 
+-----------------------------------------------------------------------------------------------
   
 
 # Manual approach 
