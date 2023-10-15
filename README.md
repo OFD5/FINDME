@@ -57,6 +57,8 @@ https://github.com/OFD5/Socuma
 - Find social media Usernames. **social-searcher** https://www.social-searcher.com/
 - Find social media Usernames. **checkusernames**https://checkusernames.com/
 - Find social media Usernames. **inteltechniques** https://inteltechniques.com/tools/index.html
+- Find social media Usernames **Profil3r** https://github.com/Greyjedix/Profil3r
+- Find social media Usernames https://github.com/amitrajputfff/Profil3r
 --------------------------------------------------------------------------------------------
 - Find scrape Instagram account. **Osintgram** https://github.com/Datalux/Osintgram
 
