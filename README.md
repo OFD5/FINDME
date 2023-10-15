@@ -84,6 +84,19 @@ https://github.com/OFD5/Socuma
 - https://earth.google.com/
 - https://satellites.pro
 
+----------------------------------------------------------------------------------------------
+
+# Twitter.
+
+- https://twitter.com/search-advanced
+- https://tweetbeaver.com 
+- https://tinfoleak.com/
+- https://nitter.net
+- https://foller.me/ 
+- https://socialbearing.com/
+- https://twiangulate.com/search/ - Twitter cross-reference tool
+- https://spoonbill.io/ - Profile change trackeron
+- https://onemilliontweetmap.com/ Geolocation
 
 ----------------------------------------------------------------------------------------------
 
