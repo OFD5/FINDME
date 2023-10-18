@@ -88,6 +88,7 @@ https://github.com/OFD5/Socuma
 
 ----------------------------------------------------------------------------------------------
 # Satelite images to Pin point Location of Missing Person
+You can start by Image forensics and analyze metadata using exiftool. Scrape the GPS information from the Image if Available. 
 - https://earth.google.com/
 - https://satellites.pro
 
