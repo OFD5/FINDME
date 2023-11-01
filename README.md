@@ -30,8 +30,9 @@ https://missingpersons.police.uk
 #
 # Steps to use the tool 
 1. git clone https://github.com/OFD5/FINDME.git
-2. pip install -r requirements.txt
-3. python FINDME.py
+2. cd FINDME
+3. pip install -r requirements.txt
+4. python FINDME.py
 
 ![collector-OSINT logo](https://raw.githubusercontent.com/OFD5/FINDME/main/FIND-ME.PNG)
 
