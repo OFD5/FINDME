@@ -27,6 +27,18 @@ https://www.police.gov.hk/ppp_en/06_appeals_public/missing/index.html
 https://www.fbi.gov/wanted/kidnap
 <br>
 https://missingpersons.police.uk
+<br>
+https://www.missingpeople.org.uk
+<br>
+https://www.missingpersons.gov.au/view-all-profiles
+<br>
+https://www.missingkids.org/search
+<br>
+https://www.police.govt.nz/missing-persons/missing-persons-list?page=1
+<br>
+https://www.lapdonline.org/lapd-missing-persons/
+<br>
+https://oag.ca.gov/missing/search
 #
 # Steps to use the tool 
 1. git clone https://github.com/OFD5/FINDME.git
